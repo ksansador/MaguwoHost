@@ -1,0 +1,92 @@
+@media screen and (max-width: 1150px) {
+  .main-nav::after{
+    height: 2px;
+    width: 100%;
+    top: 80%;
+  }
+
+  .text{
+    width: 60%;
+    text-align: center;
+  }
+
+  .ours {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .our {
+    width: 40%;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px 40px;
+  }
+
+}
+
+
+@media screen and (max-width: 758px){
+  .main-nav{
+    text-align: center;
+    display: block;
+  }
+
+  .main-form {
+   width: 80%;
+   flex-direction: column;
+  }
+
+  .field {
+   margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .webhost-block {
+    background: linear-gradient(to bottom,
+        #202242 0, #202242 50%,
+        #ffe13e 50%,
+        #ffe13e 100%);
+  }
+
+ .cards{
+   flex-direction: column;
+   align-items: center;
+   }
+
+  .card{
+      width:  90%;
+      margin-bottom: 20px;
+  }
+
+
+  .client-inner{
+    flex-direction: column;
+  }
+
+  .text{
+    width: 100%;
+    text-align: center;
+  }
+
+  .logos{
+    text-align: center;
+  }
+
+  .quotes{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .quote{
+    width: 80%;
+    margin-bottom: 60px;
+  }
+}
+
+
+@media screen and (max-width: 670px) {
+
+.our {
+  width: 100%;
+}
+}
